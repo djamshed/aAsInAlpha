@@ -103,7 +103,7 @@
       removeUnused($words, txt.length);
       return window.location.hash = txt;
     });
-    txt = window.location.hash.replace('#', '');
+    txt = decodeURIComponent(window.location.hash.replace('#', ''));
     return $letters.val(txt).keyup();
   };
 

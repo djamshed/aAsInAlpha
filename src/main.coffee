@@ -89,6 +89,6 @@ init = () ->
 
 
   # set initial value and trigger keyup
-  txt = window.location.hash.replace '#',''
+  txt = decodeURIComponent window.location.hash.replace '#',''
   $letters.val(txt).keyup()
 
