@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #fff;
+  background: #91cfa1;
+  font-weight: 300;
+}
+
+input {
+  color: #555555;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  width: 940px;
+}
+
+#letters {
+  height: 150px;
+  min-width: 400px;
+  max-width: 900px;
+  outline: 1px dashed hsla(0,0%,100%,.3);
+  font-size: 100px;
+  background-color: #b1f3c4;
+}
+
+#words {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.word {
+  font-size: 30px;
+  line-height: 30px;
+}
+.oversize {
+  font-size: 110%;
+  color: lightgoldenrodyellow;
+}
+
+.undersize {
+  font-size: 70%;
+  color: #DDD;
+  margin-right: 10px;
+  width: 30px;
+  text-align: right;
+  display: inline-block;
+  vertical-align: bottom;
+}
