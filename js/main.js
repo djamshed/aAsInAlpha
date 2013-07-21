@@ -104,7 +104,7 @@
       return window.location.hash = txt;
     });
     txt = decodeURIComponent(window.location.hash.replace('#', ''));
-    return $letters.val(txt).keyup();
+    return $letters.val(txt).keyup().focus();
   };
 
 }).call(this);
